@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex and grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+
+  <body>
+    <!-- Header  -->
+   
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="brand-nav">
+            <h3 class="brand">BrandName</h3>
+            
+            <div class="ul-btn">
+              <input type="checkbox" id="menu">
+              <label for="menu"><i class="fa-solid fa-bars"></i></label>
+           
+              <ul class="nav">
+                <div class="header-buttons">
+                <li class="sub-menu">
+                  <a href="#">Home</a>
+                  <input  type="checkbox" id="home-sub">
+                  <label for="home-sub" class="arrow-icon"><span class="material-symbols-outlined">expand_more</span></label>
+                  <div class="dropdown">
+                  <ul class="sub-list home-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Important links</a></li>
+                    <li><a href="#">##</a></li>
+                    <li><a href="#">##</a></li>
+                    <li><a href="#">##</a></li>
+                    <li><a href="#">##</a></li>
+
+                  </ul>
+                </div>
+
+                </li>
+                <li class="sub-menu">
+                  <a href="#">Product</a>
+                  <input  type="checkbox" id="product-sub">
+                  <label for="product-sub"><span class="material-symbols-outlined">expand_more</span></label>
+                  
+                  <div class="dropdown">
+                    <ul class="sub-list product-list">
+                      <li><a href="#">Our Products</a></li>
+                      <li><a href="#">New products</a></li>
+                    </ul>
+                  </div>
+
+                </li>
+                <li class="sub-menu">
+                  <a href="#">Pricing</a>
+                  <input  type="checkbox" id="pricing-sub">
+                  <label for="pricing-sub"><span class="material-symbols-outlined">expand_more</span></label>
+                  
+                  <div class="dropdown">
+                  <ul class="sub-list pricing-list">
+                    <li><a href="#">Pricing section</a></li>
+                    <li><a href="#">Subscription</a></li>
+                  </ul>
+                </div>
+
+                </li>
+                <li class="sub-menu">
+                  <a href="#">Contact</a>
+                  <input  type="checkbox" id="contact-sub">
+                  <label for="contact"><span class="material-symbols-outlined">expand_more</span></label>
+                  
+                  <div class="dropdown">
+                      <ul class="sub-list contact-list">
+                        <li><a href="#">Social media</a></li>
+                        <li class="cpy-info">
+                            <a href="#">Company Info</a>
+
+                            <div class="dropdown">
+                                <ul class="about-us-list">
+                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">Carrier</a></li>
+                                    <li><a href="#">We are hiring</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Resources</a></li>
+                      </ul>
+                  </div>
+
+                </li>
+              </ul>
+              <div class="header-background">
+              <div class="dropdown-btn">
+                <button class="btn-common btn-outline" type="button">Login</button>
+                <button class="btn-common btn-filled joinus-btn" type="button">
+                  <span>Join Us</span>
+                  <span class="material-symbols-outlined joinus-btn-icon dropdown-joinus-btn">arrow_forward</span>
+                </button>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="header-btn">
+            <button class="btn-common btn-outline" type="button">Login</button>
+            <button class="btn-common btn-filled joinus-btn" type="button">
+              <span>Join Us</span>
+              <span class="material-symbols-outlined joinus-btn-icon"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+    <!-- END Header -->
+    <!-- Banner -->
+    <div class="banner">
+      <div class="container">
+        <div class="banner-div">
+          <div class="banner-content">
+            <h5>Online training</h5>
+            <h1>Best Learning Opportunities</h1>
+            <p>
+              We know how large objects will act, but things on a small scale
+            </p>
+            <div class="banner-btn">
+              <button class="btn-common btn-filled" type="button">
+                Get Quote Now
+              </button>
+              <button class="btn-common btn-outline" type="button">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <div class="banner-img">
+            <img src="image/banner-img.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Banner -->
+    <!-- Card section -->
+    <div class="cardsection">
+      <div class="container">
+        <div class="card-block">
+          <div class="card">
+            <div class="card-icon">
+              <span class="material-symbols-outlined">check_circle</span>
+            </div>
+            <h3>Books Liberary</h3>
+            <p>
+              The gradual accumulation of information about atomic and
+              small-scale behaviour...
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <span class="material-symbols-outlined">layers</span>
+            </div>
+            <h3>2,769 online courses</h3>
+            <p>
+              The gradual accumulation of information about atomic and
+              small-scale behaviour...
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <span class="material-symbols-outlined">newsmode</span>
+            </div>
+            <h3>Sales Planning</h3>
+            <p>
+              The gradual accumulation of information about atomic and
+              small-scale behaviour...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Card section -->
+    <!-- intro section -->
+    <div class="intro-section">
+      <div class="container contnr-gap">
+        <div class="intro-div">
+          <div class="intro-img">
+            <img src="image/section-img.png" />
+          </div>
+
+          <div class="intro-content">
+            <h2 class="intro-head">Packages that are aprodable</h2>
+            <p>
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+            <button class="intro-cont-link">
+              <span>Learn More</span>
+              <span class="material-symbols-outlined nxt-icn"
+                >navigate_next</span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END intro section -->
+    <!-- Rating Section -->
+    <div class="ratings-sec">
+      <div class="container rating-sec-gap">
+        <div class="heading">
+          <h6>Practice Advice</h6>
+          <h2>Make online education accessible</h2>
+          <p>
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+        <div class="rating-card-block">
+          <div class="rating-card">
+            <div class="rating-img">
+              <img src="image/rating img1.png" />
+              <div class="icon-sale">Sale</div>
+              <div class="icon-block">
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">favorite</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">shopping_cart</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined icn-view"
+                    >visibility</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="rating-content">
+              <div class="rating-cont-head">
+                <p class="rating-cont-head-eng">English</p>
+                <button>
+                  <span
+                    class="material-symbols-outlined icn-star-filled star-size"
+                    >star</span
+                  >
+                  <p class="rating-cont-head-rate">4.9</p>
+                </button>
+              </div>
+              <h5 class="rating-cont-h5-top">Graphic Design</h5>
+              <p class="rating-para">
+                We focus on ergonomics and meeting you....
+              </p>
+              <div class="rating-sales">
+                <span class="material-symbols-outlined icn-download"
+                  >download</span
+                >
+                <h6>15 Sales</h6>
+              </div>
+              <div class="offer-price">
+                <h5 class="old-price"><span>$16.48</span></h5>
+                <h5 class="new-price"><span>$6.48</span></h5>
+              </div>
+              <div class="rating-cont-list">
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>Pro...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-chart"
+                    >monitoring</span
+                  >
+                  <p>64 Les...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>22hr..</p>
+                </div>
+              </div>
+              <button class="btn-common btn-outline rating-cont-btn rating-btn">
+                Learn More
+                <span
+                  class="material-symbols-outlined nxt-icn rating-nxt-icn-align"
+                  >navigate_next</span
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="rating-card">
+            <div class="rating-img">
+              <img class="rating-img" src="image/rating img2.png" />
+              <div class="icon-sale">Sale</div>
+              <div class="icon-block">
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">favorite</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">shopping_cart</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined icn-view"
+                    >visibility</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="rating-content">
+              <div class="rating-cont-head">
+                <p class="rating-cont-head-eng">English</p>
+                <button>
+                  <span
+                    class="material-symbols-outlined icn-star-filled star-size"
+                    >star</span
+                  >
+                  <p class="rating-cont-head-rate">4.9</p>
+                </button>
+              </div>
+              <h5 class="rating-cont-h5-top">Graphic Design</h5>
+              <p class="rating-para">
+                We focus on ergonomics and meeting you....
+              </p>
+              <div class="rating-sales">
+                <span class="material-symbols-outlined icn-download"
+                  >download</span
+                >
+                <h6>15 Sales</h6>
+              </div>
+              <div class="offer-price">
+                <h5 class="old-price"><span>$16.48</span></h5>
+                <h5 class="new-price"><span>$6.48</span></h5>
+              </div>
+              <div class="rating-cont-list">
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>Pro...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-chart"
+                    >monitoring</span
+                  >
+                  <p>64 Les...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>22hr..</p>
+                </div>
+              </div>
+              <button class="btn-common btn-outline rating-cont-btn rating-btn">
+                Learn More
+                <span
+                  class="material-symbols-outlined nxt-icn rating-nxt-icn-align"
+                  >navigate_next</span
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="rating-card">
+            <div class="rating-img">
+              <img class="rating-img" src="image/rating img3.png" />
+              <div class="icon-sale">Sale</div>
+              <div class="icon-block">
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">favorite</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">shopping_cart</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined icn-view"
+                    >visibility</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="rating-content">
+              <div class="rating-cont-head">
+                <p class="rating-cont-head-eng">English</p>
+                <button>
+                  <span
+                    class="material-symbols-outlined icn-star-filled star-size"
+                    >star</span
+                  >
+                  <p class="rating-cont-head-rate">4.9</p>
+                </button>
+              </div>
+              <h5 class="rating-cont-h5-top">Graphic Design</h5>
+              <p class="rating-para">
+                We focus on ergonomics and meeting you....
+              </p>
+              <div class="rating-sales">
+                <span class="material-symbols-outlined icn-download"
+                  >download</span
+                >
+                <h6>15 Sales</h6>
+              </div>
+              <div class="offer-price">
+                <h5 class="old-price"><span>$16.48</span></h5>
+                <h5 class="new-price"><span>$6.48</span></h5>
+              </div>
+
+              <div class="rating-cont-list">
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>Pro...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-chart"
+                    >monitoring</span
+                  >
+                  <p>64 Les...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>22hr..</p>
+                </div>
+              </div>
+              <button class="btn-common btn-outline rating-cont-btn rating-btn">
+                Learn More
+                <span
+                  class="material-symbols-outlined nxt-icn rating-nxt-icn-align"
+                  >navigate_next</span
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="rating-card">
+            <div class="rating-img">
+              <img class="rating-img" src="image/rating img4.png" />
+              <div class="icon-sale">Sale</div>
+              <div class="icon-block">
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">favorite</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined">shopping_cart</span>
+                </button>
+                <button class="rating-icon-box">
+                  <span class="material-symbols-outlined icn-view"
+                    >visibility</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="rating-content">
+              <div class="rating-cont-head">
+                <p class="rating-cont-head-eng">English</p>
+                <button>
+                  <span
+                    class="material-symbols-outlined icn-star-filled star-size"
+                    >star</span
+                  >
+                  <p class="rating-cont-head-rate">4.9</p>
+                </button>
+              </div>
+              <h5 class="rating-cont-h5-top">Graphic Design</h5>
+              <p class="rating-para">
+                We focus on ergonomics and meeting you....
+              </p>
+              <div class="rating-sales">
+                <span class="material-symbols-outlined icn-download"
+                  >download</span
+                >
+                <h6>15 Sales</h6>
+              </div>
+              <div class="offer-price">
+                <h5 class="old-price"><span>$16.48</span></h5>
+                <h5 class="new-price"><span>$6.48</span></h5>
+              </div>
+              <div class="rating-cont-list">
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>Pro...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-chart"
+                    >monitoring</span
+                  >
+                  <p>64 Les...</p>
+                </div>
+                <div class="rating-icons">
+                  <span class="material-symbols-outlined icn-alarm">alarm</span>
+                  <p>22hr..</p>
+                </div>
+              </div>
+              <button class="btn-common btn-outline rating-cont-btn rating-btn">
+                <span>Learn More</span>
+                <span
+                  class="material-symbols-outlined nxt-icn rating-nxt-icn-align"
+                  >navigate_next</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Rating Section -->
+    <!-- Pricing section -->
+    <div class="pricing-section">
+      <div class="container contnr-gap">
+        <div class="pricing-flx">
+          <div class="heading">
+            <h6>Practice Advice</h6>
+            <h2>Pricing</h2>
+            <p>
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+
+          <div class="pricing-card-block">
+            <div class="pricing-card">
+              <div class="pricing-heart-box">
+                <span class="material-symbols-outlined">favorite</span>
+              </div>
+              <h3 class="mt-35 free-style">FREE</h3>
+              <h6 class="mt-35 pricing-card-subhead">
+                Organize across all apps by hand
+              </h6>
+              <h2 class="mt-35">19$</h2>
+              <h6 class="pricing-permonth">Per Month</h6>
+              <p class="mt-35 pricing-card-para">
+                Slate helps you see how many more days you need...
+              </p>
+              <button class="btn-common btn-filled pricing-btn" type="button">
+                Try for free
+              </button>
+
+              <div class="pricing-points-group">
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box pricing-tick-box-grey">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">1GB Cloud storage</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box pricing-tick-box-grey">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Email and community support</h6>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-card new-pricing-card">
+              <div class="new-icon">
+                <h3 class="text-new">New</h3>
+              </div>
+              <div class="pricing-heart-box">
+                <span class="material-symbols-outlined">favorite</span>
+              </div>
+              <h3 class="mt-35 free-style">FREE</h3>
+              <h6 class="mt-35 pricing-card-subhead">
+                Organize across all apps by hand
+              </h6>
+              <h2 class="mt-35">19$</h2>
+              <h6 class="pricing-permonth">Per Month</h6>
+              <p class="mt-35 pricing-card-para">
+                Slate helps you see how many more days you need...
+              </p>
+              <button class="btn-common btn-filled pricing-btn" type="button">
+                Try for free
+              </button>
+              <div class="pricing-points-group">
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box pricing-tick-box-grey">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">1GB Cloud storage</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box pricing-tick-box-grey">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Email and community support</h6>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-card">
+              <div class="pricing-heart-box">
+                <span class="material-symbols-outlined">favorite</span>
+              </div>
+              <h3 class="mt-35 free-style">FREE</h3>
+              <h6 class="mt-35 pricing-card-subhead">
+                Organize across all apps by hand
+              </h6>
+              <h2 class="mt-35">19$</h2>
+              <h6 class="pricing-permonth">Per Month</h6>
+              <p class="mt-35 pricing-card-para">
+                Slate helps you see how many more days you need...
+              </p>
+              <button class="btn-common btn-filled pricing-btn" type="button">
+                Try for free
+              </button>
+              <div class="pricing-points-group">
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Unlimited product updates</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box pricing-tick-box-grey">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">1GB Cloud storage</h6>
+                </div>
+                <div class="pricing-point">
+                  <div class="pricing-tick-box pricing-tick-box-grey">
+                    <span class="material-symbols-outlined tick-style"
+                      >check</span
+                    >
+                  </div>
+                  <h6 class="pricing-card-h6">Email and community support</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END Pricing section -->
+    <!-- Teacher-Section -->
+    <div class="teacher-sec-head">
+      <div class="teacher-sec-gap">
+        <div class="container">
+          <div class="heading">
+            <h6>Practice Advice</h6>
+            <h2>Our Experts Teacher</h2>
+            <p>
+              Problems trying to resolve the conflict between the two major
+              realms of Classical physics: Newtonian mechanics
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-block">
+          <div class="container testimonial-flx">
+            <div class="testimonials-card">
+              <img class="teacher-img" src="image/teacher1.png" />
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div>
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-outlined icn-star-filled icn-star-outline"
+                  >star</span
+                >
+              </div>
+              <div class="designer">
+                <h5>Regina Miles</h5>
+                <h6>Designer</h6>
+              </div>
+            </div>
+            <div class="testimonials-card">
+              <img class="teacher-img" src="image/teacher2.png" />
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div>
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span class="material-symbols-outlined icn-star-filled"
+                  >star</span
+                >
+                <span
+                  class="material-symbols-outlined icn-star-filled icn-star-outline"
+                  >star</span
+                >
+              </div>
+              <div class="designer">
+                <h5>Regina Miles</h5>
+                <h6>Designer</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Teacher-Section -->
+    <!-- Product section -->
+    <div class="product-section">
+      <div class="container product-flx contnr-gap">
+        <div class="heading product-head">
+          <h6>Practice Advice</h6>
+          <h2>Featured Products</h2>
+          <p class="product-section-head-p">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+        <div class="product-section-input">
+          <input class="input" type="email" placeholder="Your Email" />
+          <button class="btn-common btn-filled inp-btn" type="submit">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- END product section -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-links">
+        <div class="ftr-social-link">
+          <h3>Get In Touch</h3>
+          <p class="ftr-lnk-1st-col-p">the quick fox jumps over the lazy dog</p>
+          <div class="social-media-icons">
+            <a href="#"><i class="fa-brands fa-facebook social-icons"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram social-icons"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter social-icons"></i></a>
+          </div>
+        </div>
+        <div class="ftr-link-columns">
+          <h3>Company info</h3>
+          <div class="ftr-colm-links">
+            <a href="#">
+              <p>About Us</p>
+            </a>
+            <a href="#">
+              <p>Carrier</p>
+            </a>
+            <a href="#">
+              <p>We are hiring</p>
+            </a>
+            <a href="#">
+              <p>Blog</p>
+            </a>
+          </div>
+        </div>
+        <div class="ftr-link-columns">
+          <h3>Features</h3>
+          <div class="ftr-colm-links">
+            <a href="#">
+              <p>Business Marketing</p>
+            </a>
+            <a href="#">
+              <p>User Analytic</p>
+            </a>
+            <a href="#">
+              <p>Live Chat</p>
+            </a>
+            <a href="#">
+              <p>Unlimited Support</p>
+            </a>
+          </div>
+        </div>
+        <div class="ftr-link-columns">
+          <h3>Resources</h3>
+          <div class="ftr-colm-links">
+            <a href="#">
+              <p>IOS & Android</p>
+            </a>
+            <a href="#">
+              <p>Watch a Demo</p>
+            </a>
+            <a href="#">
+              <p>Customers</p>
+            </a>
+            <a href="#">
+              <p>API</p>
+            </a>
+          </div>
+        </div>
+        <!-- <br clear="all" /> -->
+      </div>
+
+      <div class="footer-btm">
+        <div class="container">
+          <p>Made With Love By Figmaland All Right Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer -->
+  </body>
+</html>
